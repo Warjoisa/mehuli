@@ -126,7 +126,7 @@ function HTMLActuator() {
   
   HTMLActuator.prototype.message = function (won) {
     var type    = won ? "game-won" : "game-over";
-    var message = won ? "Voitit!" : "Peli loppui!";
+    var message = won ? "HeDeLmÄ MeHuA!! <3" : "Peli loppui!";
   
     this.messageContainer.classList.add(type);
     this.messageContainer.getElementsByTagName("p")[0].textContent = message;
